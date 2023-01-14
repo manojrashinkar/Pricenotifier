@@ -17,7 +17,7 @@ if (int(lcp) > 600):
     st.header(lcp)
 else:
     print("CANFINE price is : ",lcp)
-    st.header("Price of CANFIN is : ",lcp)
+    st.write("Price of CANFIN is : ",lcp)
 
 
 
