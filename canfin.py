@@ -1,7 +1,6 @@
 from nsetools import Nse
 import streamlit as st
 
-
 st.title("Price notifier")
 ns = Nse()
 key_v = list()
