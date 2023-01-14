@@ -1,8 +1,6 @@
 from nsetools import Nse
 import streamlit as st
 
-from paho.mqtt import client as mqtt_client
-
 
 st.title("Price notifier")
 ns = Nse()
