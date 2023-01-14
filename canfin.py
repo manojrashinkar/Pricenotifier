@@ -1,5 +1,4 @@
 from nsetools import Nse
-import pandas as pd
 import streamlit as st
 
 from paho.mqtt import client as mqtt_client
