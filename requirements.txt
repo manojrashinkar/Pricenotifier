@@ -1,0 +1,4 @@
+nsetools==1.0.11
+paho_mqtt==1.6.1
+pandas==1.5.2
+streamlit==1.11.0
