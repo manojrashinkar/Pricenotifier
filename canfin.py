@@ -38,7 +38,7 @@ if (int(lcp) > 600):
 else:
     print("CANFINE price is : ",lcp)
     st.write(f"Price of {option} is : ",lcp)
-    playsound(r'vibration_message.mp3')
+
    
 
 
