@@ -34,11 +34,13 @@ if (int(lcp) > 600):
     print(f"Price of {option} is : ",lcp)
     st.write(f"Price of {option} is : ",lcp)
 
-    pw.sendwhatmsg_to_group_instantly("Co6W1ObZoNgCnrv3zMh61L", "Hey All!")
+    pw.sendwhatmsg_to_group_instantly("Co6W1ObZoNgCnrv3zMh61L", lcp)
     
 else:
     print("CANFINE price is : ",lcp)
     st.write(f"Price of {option} is : ",lcp)
+    pw.sendwhatmsg_to_group_instantly("Co6W1ObZoNgCnrv3zMh61L", "Hey All!")
+
 
 
 
