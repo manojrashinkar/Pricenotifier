@@ -1,4 +1,6 @@
 pip install nsepython
+
+python -m  pipreqs.pipreqs
 pip install nsetools
 
 pass aws : XLPwX_7/zKTz{LYc

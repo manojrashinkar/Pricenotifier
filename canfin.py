@@ -1,6 +1,6 @@
 from nsetools import Nse
 import streamlit as st
-
+from playsound import playsound
 
 st.title("Price notifier")
 ns = Nse()
@@ -38,6 +38,7 @@ if (int(lcp) > 600):
 else:
     print("CANFINE price is : ",lcp)
     st.write(f"Price of {option} is : ",lcp)
+    playsound(r'vibration_message.mp3')
    
 
 
