@@ -1,6 +1,5 @@
 from nsetools import Nse
 import streamlit as st
-from playsound import playsound
 
 st.title("Price notifier")
 ns = Nse()
